@@ -12,7 +12,7 @@ The analysis focuses on three practical areas:
 
 Project Resources:
 * **Interactive Power BI Dashboard:** Can be downloaded [here](https://drive.google.com/file/d/1JD-_kn0LZ-Lgb8KgNAaVNJqV9bxQVIf8/view?usp=sharing)
-* **Data Preparation & ETL:** The Google Colab file with data cleaning, organization, and preparation for the dashboard can be found [here](<https://colab.research.google.com/drive/1R7rnS4ImP236Z7N_vgET2rEogYDIB_qu?usp=sharing>).
+* **Data Preparation & ETL:** The Google Colab file with data cleaning, organization, and preparation for the dashboard can be found [here](https://colab.research.google.com/drive/1R7rnS4ImP236Z7N_vgET2rEogYDIb_qu?usp=sharing).
 
 ## Data Structure & Initial Checks
 The dataset for Voltix Electronics contains user interaction logs. It consists of a single table tracking individual event history with a total of **885,129 rows** spanning over **157 days** (from September 24, 2020, to February 28, 2021).
@@ -77,7 +77,7 @@ The dataset for Voltix Electronics contains user interaction logs. It consists o
 ### Data Preparation Workflow
 Before building the dashboard, the raw data was processed to ensure accurate results. This preparation included editing column data types, removing duplicate rows, and structuring the data specifically for cohort analysis.
 
-The complete Python script with the cleaning and data preparation workflow can be reviewed [here](https://colab.research.google.com/drive/1R7rnS4ImP236Z7N_vgET2rEogYDIB_qu?usp=sharing).
+The complete Python script with the cleaning and data preparation workflow can be reviewed [here](https://colab.research.google.com/drive/1R7rnS4ImP236Z7N_vgET2rEogYDIb_qu?usp=sharing).
 
 ## Executive Summary
 
