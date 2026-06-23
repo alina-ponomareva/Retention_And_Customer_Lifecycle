@@ -11,8 +11,8 @@ The analysis focuses on three practical areas:
 * High-Level KPIs: Evaluating total revenue, order volume, and average order value to see if current business growth is stable for the future.
 
 Project Resources:
-* **Interactive Power BI Dashboard:** Can be downloaded [here](https://colab.research.google.com/drive/1R7rnS4ImP236Z7N_vgET2rEogYDIb_qu?usp=sharing).
-* **Data Preparation & ETL:** The Google Colab file with data cleaning, organization, and preparation for the dashboard can be found [here](https://colab.research.google.com/drive/1R7rnS4ImP236Z7N_vgET2rEogYDIB_qu?usp=sharing).
+* **Interactive Dashboard:** [View the full Power BI dashboard in PDF format](https://drive.google.com/file/d/1JD-_kn0LZ-Lgb8KgNAaVNJqV9bxQVIf8/view?usp=sharing)
+* **Data Preparation & ETL:** The Google Colab file with data cleaning, organization, and preparation for the dashboard can be found [here](<https://colab.research.google.com/drive/1R7rnS4ImP236Z7N_vgET2rEogYDIB_qu?usp=sharing>).
 
 ## Data Structure & Initial Checks
 The dataset for Voltix Electronics contains user interaction logs. It consists of a single table tracking individual event history with a total of **885,129 rows** spanning over **157 days** (from September 24, 2020, to February 28, 2021).
