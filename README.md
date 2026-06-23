@@ -11,7 +11,7 @@ The analysis focuses on three practical areas:
 * High-Level KPIs: Evaluating total revenue, order volume, and average order value to see if current business growth is stable for the future.
 
 Project Resources:
-* **Interactive Power BI Dashboard:** Can be downloaded [here](2.0.pdf).
+* **Interactive Power BI Dashboard:** Can be downloaded [here](https://drive.google.com/file/d/1JD-_kn0LZ-Lgb8KgNAaVNJqV9bxQVIf8/view?usp=sharing).
 * **Data Preparation & ETL:** The Google Colab file with data cleaning, organization, and preparation for the dashboard can be found [here](https://colab.research.google.com/drive/1R7rnS4ImP236Z7N_vgET2rEogYDIB_qu?usp=sharing).
 
 ## Data Structure & Initial Checks
@@ -102,3 +102,35 @@ When analyzing the conversion funnel and the overall retention trend, we see tha
     </tr>
   </tbody>
 </table>
+
+### 3. Cohort Retention Matrix Analysis
+<img width="1247" height="550" alt="image" src="https://github.com/user-attachments/assets/51cb4557-3273-4dd4-9b92-2032cecb1517" />
+
+A detailed look at the weekly tracking highlights a severe problem with user loyalty across all periods:
+* **The Drop-Off:** In Week 1, retention across almost all cohorts plummets down to 2.5% – 3.5%. This means the platform loses around 97% of its newly acquired customers within the first 7 days.
+  
+* **The September 21 Exception:** The cohort from September 21, 2020, stands out with the highest Week 1 retention rate at **5.6%**. This anomaly indicates a significantly more effective marketing campaign or higher-quality user acquisition during that specific week.
+  
+* **The "Dead" Matrix:** While some minimal user activity slowly decays over the first two months, every single cohort effectively flattens out and "dies" (dropping to a critical 0.1% – 0.2%) **after week 10**.
+  
+* **The Verdict:** The business operates like a "leaky bucket." While marketing successfully brings in new users and generates high initial revenue, the product fails to retain them, resulting in zero long-term customer loyalty.
+
+## Actionable Recommendations
+
+Based on the findings, the company needs to shift its focus from aggressive new user acquisition to fixing user experience friction and building retention. 
+
+### 1. Optimize the User Experience (Product & UI/UX Team)
+* **Fix the Funnel Leak:** With only 9.08% of users adding items to the cart, the team must review the product description pages. We need to identify technical bugs, optimize page loading speed, and simplify the "Add to Cart" button visibility.
+  
+* **Streamline the Checkout Process:** Ensure that the path from cart to purchase is as short and seamless as possible to push the final 5.24% conversion rate higher.
+
+### 2. Implement Retention Strategies (Marketing Team)
+* **First-Week Activation:** Since the platform loses around 97% of users within the first 7 days, it is critical to launch automated email/push campaigns or discount offers within 48 hours of their first view to drive them toward a second action.
+  
+* **Analyze the September 21 Success:** Investigate what specific marketing channels, ad creatives, or promotional offers were used during the week of September 21, 2020. Replicating this strategy can help increase overall baseline Week 1 retention.
+  
+* **Introduce Loyalty Programs:** Create post-purchase retention mechanics (e.g., cashback, loyalty points, or special discounts on the next purchase) to transform one-time buyers into active, long-term cohorts.
+
+---
+
+👉 **Ready to see the visual insights?** [Click here to review Power BI Dashboard](https://drive.google.com/file/d/1JD-_kn0LZ-Lgb8KgNAaVNJqV9bxQVIf8/view?usp=sharing).
